@@ -9,7 +9,6 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "/todos-a-mesa/",
   plugins: [
     react(),
     mode === "development" && componentTagger(),
