@@ -9,49 +9,53 @@ const NextSteps = () => {
       phase: "Fase 1",
       title: "Conclusão da Pesquisa",
       timeline: "2-3 meses",
-      description: "Finalizar entrevistas em profundidade, análise de concorrentes e consolidação de requisitos",
+      description:
+        "Finalizar entrevistas em profundidade, análise de concorrentes e consolidação de requisitos",
       actions: [
         "Completar 12 entrevistas com usuários",
         "Documentar personas e cenários de uso",
-        "Definir requisitos funcionais prioritários"
-      ]
+        "Definir requisitos funcionais prioritários",
+      ],
     },
     {
       icon: Code,
       phase: "Fase 2",
       title: "Desenvolvimento do Protótipo",
       timeline: "3-4 meses",
-      description: "Criar protótipo funcional baseado nos insights da pesquisa com foco em acessibilidade",
+      description:
+        "Criar protótipo funcional baseado nos insights da pesquisa com foco em acessibilidade",
       actions: [
         "Design de interface de alta fidelidade",
         "Desenvolvimento de protótipo navegável",
-        "Implementação de recursos de acessibilidade"
-      ]
+        "Implementação de recursos de acessibilidade",
+      ],
     },
     {
       icon: Calendar,
       phase: "Fase 3",
       title: "Testes de Usabilidade",
       timeline: "1-2 meses",
-      description: "Validação do protótipo através de tree testing e coleta de feedbacks com usuários reais",
+      description:
+        "Validação do protótipo através de tree testing e coleta de feedbacks com usuários reais",
       actions: [
         "Conduzir sessões de tree testing",
         "Coletar feedback sobre usabilidade",
-        "Iterar design baseado nos resultados"
-      ]
+        "Iterar design baseado nos resultados",
+      ],
     },
     {
       icon: Rocket,
       phase: "Fase 4",
       title: "Lançamento e Expansão",
       timeline: "2-3 meses",
-      description: "Refinamento final, lançamento do aplicativo e planejamento de funcionalidades futuras",
+      description:
+        "Refinamento final, lançamento do aplicativo e planejamento de funcionalidades futuras",
       actions: [
         "Ajustes finais no aplicativo",
         "Lançamento versão beta",
-        "Planejamento de atualizações futuras"
-      ]
-    }
+        "Planejamento de atualizações futuras",
+      ],
+    },
   ];
 
   return (
@@ -69,7 +73,10 @@ const NextSteps = () => {
 
           <div className="space-y-6 mb-12">
             {steps.map((step, index) => (
-              <Card key={index} className="border-2 hover:border-primary/50 transition-all hover:shadow-lg group">
+              <Card
+                key={index}
+                className="border-2 hover:border-primary/50 transition-all hover:shadow-lg group"
+              >
                 <CardHeader className="pb-4">
                   <div className="flex items-start gap-4">
                     <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
@@ -85,15 +92,22 @@ const NextSteps = () => {
                           {step.timeline}
                         </span>
                       </div>
-                      <CardTitle className="text-2xl mb-2">{step.title}</CardTitle>
-                      <p className="text-muted-foreground">{step.description}</p>
+                      <CardTitle className="text-2xl mb-2">
+                        {step.title}
+                      </CardTitle>
+                      <p className="text-muted-foreground">
+                        {step.description}
+                      </p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 ml-16">
                     {step.actions.map((action, idx) => (
-                      <li key={idx} className="flex items-center gap-2 text-muted-foreground">
+                      <li
+                        key={idx}
+                        className="flex items-center gap-2 text-muted-foreground"
+                      >
                         <ArrowRight className="w-4 h-4 text-primary" />
                         <span>{action}</span>
                       </li>
@@ -103,28 +117,6 @@ const NextSteps = () => {
               </Card>
             ))}
           </div>
-
-          <Card className="border-2 border-primary/30 bg-primary/5">
-            <CardContent className="py-8">
-              <div className="text-center space-y-6">
-                <h3 className="text-2xl font-bold text-foreground">
-                  Quer Participar do Projeto?
-                </h3>
-                <p className="text-muted-foreground max-w-2xl mx-auto">
-                  Estamos buscando participantes para entrevistas, testes de usabilidade e feedback contínuo. 
-                  Sua contribuição é essencial para criar um aplicativo verdadeiramente acessível.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center pt-2">
-                  <Button size="lg" className="text-lg px-8">
-                    Quero Participar
-                  </Button>
-                  <Button size="lg" variant="outline" className="text-lg px-8">
-                    Saber Mais
-                  </Button>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>
