@@ -4,10 +4,6 @@ import path from "path";
 
 export default defineConfig({
   base: "/todos-a-mesa/",
-  server: {
-    host: "::",
-    port: 8080,
-  },
   plugins: [react()],
   resolve: {
     alias: {
