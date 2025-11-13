@@ -3,21 +3,20 @@ import { Heart, Sparkles } from "lucide-react";
 
 const NeedsAndDifferentials = () => {
   const needs = [
-    "Interface intuitiva com navegação simplificada e clara",
-    "Alto contraste visual e suporte para diferentes tamanhos de fonte",
-    "Ícones descritivos e linguagem acessível",
-    "Feedback sonoro e visual para todas as ações",
-    "Compatibilidade com leitores de tela e tecnologias assistivas",
-    "Tempo adequado para leitura e compreensão de informações"
+    "Receitas divididas em passos curtos e numerados",
+    "Uso de ícones, imagens ou animações para reforçar instruções",
+    "Opção de áudio com fala calma e pausada",
+    "Notificações suaves para lembrar o próximo passo ou tempo de forno/panela",
+    "Uso de cores não vibrantes",
+    "Controle do tempo da receita em relação a timers e pausas",
   ];
 
   const differentials = [
-    "Design co-criado com usuários com deficiência visual e intelectual",
-    "Sistema de navegação por cores e formas além de texto",
-    "Tutoriais interativos adaptativos ao nível do usuário",
-    "Modo de prática sem consequências para ganhar confiança",
-    "Recursos de personalização individual de acessibilidade",
-    "Suporte multilíngue com opções de comunicação simplificada"
+    "Modo passo a passo ilustrado: cada tela mostra só uma etapa, com imagem e texto simples",
+    "Leitura em voz alta com opção de repetir instruções",
+    "Controle do usuário em relação as etapas de receita",
+    "Layout minimalista, sem excesso de informação",
+    "Uso de cores e contrastes consistentes, evitando poluição visual",
   ];
 
   return (
@@ -29,7 +28,8 @@ const NeedsAndDifferentials = () => {
               Necessidades e Diferenciais
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              O que torna o Todos À Mesa único e como atendemos necessidades reais
+              O que torna o Todos À Mesa único e como vamos atender necessidades
+              reais
             </p>
           </div>
 
@@ -40,7 +40,9 @@ const NeedsAndDifferentials = () => {
                   <div className="p-2 bg-primary/10 rounded-lg">
                     <Heart className="w-6 h-6 text-primary" />
                   </div>
-                  <CardTitle className="text-2xl">Necessidades Identificadas</CardTitle>
+                  <CardTitle className="text-2xl">
+                    Necessidades Identificadas
+                  </CardTitle>
                 </div>
               </CardHeader>
               <CardContent className="pt-6">
@@ -65,7 +67,9 @@ const NeedsAndDifferentials = () => {
                   <div className="p-2 bg-accent/10 rounded-lg">
                     <Sparkles className="w-6 h-6 text-accent" />
                   </div>
-                  <CardTitle className="text-2xl">Nossos Diferenciais</CardTitle>
+                  <CardTitle className="text-2xl">
+                    Diferenciais do App
+                  </CardTitle>
                 </div>
               </CardHeader>
               <CardContent className="pt-6">
@@ -89,12 +93,33 @@ const NeedsAndDifferentials = () => {
             <CardContent className="pt-6">
               <div className="text-center max-w-3xl mx-auto">
                 <h3 className="text-2xl font-bold text-foreground mb-4">
-                  Compromisso com a Acessibilidade Universal
+                  Conclusões da Pesquisa
                 </h3>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  O Todos À Mesa não é apenas um aplicativo, é uma ponte para a inclusão digital. 
-                  Cada funcionalidade foi pensada para empoderar pessoas com deficiência visual e intelectual, 
-                  garantindo autonomia, dignidade e participação plena na sociedade digital.
+              </div>
+              <div className="mt-6 space-y-4">
+                <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+                  A aplicação da entrevista e da análise de concorrentes
+                  permitiu compreender melhor as dificuldades e necessidades do
+                  público-alvo. A entrevista foi fundamental para identificar
+                  preferências como fontes maiores, imagens simplificadas,
+                  botões grandes e voz clara e desacelerada. Também surgiram
+                  ideias práticas, como comandos por voz e pausas automáticas
+                  entre etapas. Esses resultados foram essenciais para a
+                  estruturação inicial do protótipo de baixa fidelidade.{" "}
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+                  Por outro lado, a pesquisa também revelou aspectos a serem
+                  revisados. O participante relatou que cores vibrantes
+                  atrapalham o uso, o que contrariou expectativas iniciais e
+                  levantou a necessidade de ampliar o número de participantes
+                  para validar essas observações. Para isso, recomenda-se a
+                  aplicação de questionários rápidos em uma segunda etapa.
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+                  Outra melhoria seria retomar a entrevista com o protótipo de
+                  baixa fidelidade, a fim de avaliar a capacidade do usuário de
+                  seguir as instruções de forma autônoma. Contudo, devido à
+                  limitação de tempo, essa etapa não foi realizada.
                 </p>
               </div>
             </CardContent>

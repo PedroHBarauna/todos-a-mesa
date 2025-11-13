@@ -1,59 +1,45 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { ArrowRight, Calendar, Users, Code, Rocket } from "lucide-react";
+import { ArrowRight, Calendar, Users, Code } from "lucide-react";
 
 const NextSteps = () => {
   const steps = [
     {
       icon: Users,
-      phase: "Fase 1",
+      phase: "1",
       title: "Conclusão da Pesquisa",
-      timeline: "2-3 meses",
+      timeline: "Outubro - Novembro",
       description:
-        "Finalizar entrevistas em profundidade, análise de concorrentes e consolidação de requisitos",
+        "Entrevista em profundidade, análise de concorrentes e consolidação de requisitos",
       actions: [
-        "Completar 12 entrevistas com usuários",
-        "Documentar personas e cenários de uso",
+        "Fly on the Wall",
         "Definir requisitos funcionais prioritários",
+        "Documentar personas e cenários de uso",
       ],
     },
     {
       icon: Code,
-      phase: "Fase 2",
-      title: "Desenvolvimento do Protótipo",
-      timeline: "3-4 meses",
+      phase: "2",
+      title:
+        "Desenvolvimento do Protótipo de Baixa Fidelidade, Avaliação e Testes",
+      timeline: "Novembro - Dezembro",
       description:
-        "Criar protótipo funcional baseado nos insights da pesquisa com foco em acessibilidade",
+        "Criar protótipo de baixa fidelidade baseado na investigação inicial e realizar avaliação",
       actions: [
-        "Design de interface de alta fidelidade",
-        "Desenvolvimento de protótipo navegável",
-        "Implementação de recursos de acessibilidade",
+        "Design de interface de baixa fidelidade",
+        "Avaliação de impacto com usuários",
+        "Refinar protótipo baseado no feedback",
       ],
     },
     {
       icon: Calendar,
       phase: "Fase 3",
-      title: "Testes de Usabilidade",
-      timeline: "1-2 meses",
+      title: "Desenvolvimento do Protótipo de Alta Fidelidade e Validação",
+      timeline: "Novembro - Dezembro",
       description:
-        "Validação do protótipo através de tree testing e coleta de feedbacks com usuários reais",
+        "Desenvolvimento e validação do protótipo de alta fidelidade através de tree testing e coleta de feedbacks com usuários reais",
       actions: [
-        "Conduzir sessões de tree testing",
-        "Coletar feedback sobre usabilidade",
-        "Iterar design baseado nos resultados",
-      ],
-    },
-    {
-      icon: Rocket,
-      phase: "Fase 4",
-      title: "Lançamento e Expansão",
-      timeline: "2-3 meses",
-      description:
-        "Refinamento final, lançamento do aplicativo e planejamento de funcionalidades futuras",
-      actions: [
-        "Ajustes finais no aplicativo",
-        "Lançamento versão beta",
-        "Planejamento de atualizações futuras",
+        "Coletar feedback sobre usabilidade com usuários reais",
+        "Apresentar resultados",
       ],
     },
   ];

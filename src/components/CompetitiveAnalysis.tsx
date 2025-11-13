@@ -3,35 +3,22 @@ import { CheckCircle2, XCircle, AlertCircle } from "lucide-react";
 
 const CompetitiveAnalysis = () => {
   const competitor = {
-    name: "Tasty - Receitas e Culinária",
+    name: "Tudo Gostoso",
     strengths: [
-      "Interface visualmente atraente com vídeos curtos de receitas",
-      "Grande variedade de receitas disponíveis",
-      "Função de busca por ingredientes",
-      "Lista de compras integrada",
+      "Temporizador das etapas",
+      "Mostra imagens dos ingredientes",
       "Modo passo a passo para seguir receitas",
-      "Comunidade ativa com avaliações de usuários",
-      "Salvamento de receitas favoritas",
-      "Integração com redes sociais",
-      "Vídeos em alta qualidade",
-      "Categorização por tipo de refeição e dificuldade"
     ],
     weaknesses: [
-      "Interface complexa com muitos elementos visuais simultâneos",
-      "Falta de recursos de acessibilidade para baixa visão",
-      "Sem suporte adequado para leitores de tela",
-      "Navegação confusa com múltiplos níveis de menus",
-      "Contraste de cores insuficiente",
-      "Textos pequenos e difíceis de ler",
+      "Muito texto descritivo sem suporte visual adequado",
+      "Muitas medidas sem equivalentes visuais",
+      "Sem padrão de cadastro de receitas",
+      "Muitos anúncios (tanto Aapp quanto web)",
+      "Modo sem mão não funcional",
+      "Opções de escolhas pequenas com letras pequenas",
       "Ausência de comando de voz para navegação",
-      "Vídeos sem descrição de áudio adequada",
-      "Muitas propagandas que distraem",
-      "Não possui modo simplificado",
-      "Falta de feedback sonoro para ações",
-      "Instruções rápidas demais nos vídeos",
       "Sem opção de pausar e repetir etapas facilmente",
-      "Interface não otimizada para pessoas com deficiência intelectual"
-    ]
+    ],
   };
 
   return (
@@ -43,7 +30,8 @@ const CompetitiveAnalysis = () => {
               Análise de Concorrentes
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Estudo comparativo de soluções existentes para identificar oportunidades e melhores práticas
+              Estudo comparativo de soluções existentes para identificar
+              oportunidades e melhores práticas
             </p>
           </div>
 
@@ -59,27 +47,41 @@ const CompetitiveAnalysis = () => {
                   <div>
                     <div className="flex items-center gap-2 mb-4">
                       <CheckCircle2 className="w-6 h-6 text-green-600" />
-                      <h4 className="font-semibold text-foreground text-lg">Pontos Fortes</h4>
+                      <h4 className="font-semibold text-foreground text-lg">
+                        Pontos Fortes
+                      </h4>
                     </div>
                     <ul className="space-y-2.5">
                       {competitor.strengths.map((strength, idx) => (
-                        <li key={idx} className="text-sm text-muted-foreground flex items-start gap-2">
-                          <span className="text-green-600 mt-1 text-xs font-bold">✓</span>
+                        <li
+                          key={idx}
+                          className="text-sm text-muted-foreground flex items-start gap-2"
+                        >
+                          <span className="text-green-600 mt-1 text-xs font-bold">
+                            ✓
+                          </span>
                           <span>{strength}</span>
                         </li>
                       ))}
                     </ul>
                   </div>
-                  
+
                   <div>
                     <div className="flex items-center gap-2 mb-4">
                       <XCircle className="w-6 h-6 text-red-600" />
-                      <h4 className="font-semibold text-foreground text-lg">Pontos Fracos</h4>
+                      <h4 className="font-semibold text-foreground text-lg">
+                        Pontos Fracos
+                      </h4>
                     </div>
                     <ul className="space-y-2.5">
                       {competitor.weaknesses.map((weakness, idx) => (
-                        <li key={idx} className="text-sm text-muted-foreground flex items-start gap-2">
-                          <span className="text-red-600 mt-1 text-xs font-bold">✗</span>
+                        <li
+                          key={idx}
+                          className="text-sm text-muted-foreground flex items-start gap-2"
+                        >
+                          <span className="text-red-600 mt-1 text-xs font-bold">
+                            ✗
+                          </span>
                           <span>{weakness}</span>
                         </li>
                       ))}
@@ -102,25 +104,25 @@ const CompetitiveAnalysis = () => {
                 <li className="flex items-start gap-3">
                   <span className="text-primary font-bold">→</span>
                   <span className="text-muted-foreground">
-                    <strong className="text-foreground">Simplicidade é fundamental:</strong> Aplicativos com interfaces mais simples demonstram melhor aceitação
+                    <strong className="text-foreground">
+                      Problemas recorrentes:
+                    </strong>{" "}
+                    Excesso de texto, medidas confusas, falta de padrão no
+                    cadastro, anúncios intrusivos, baixa acessibilidade, botões
+                    e fontes pequenos, timer único (não por etapas) e ausência
+                    de interação por voz.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary font-bold">→</span>
                   <span className="text-muted-foreground">
-                    <strong className="text-foreground">Contraste e tamanho:</strong> Alto contraste e elementos grandes são essenciais, mas devem ser balanceados com a estética
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-primary font-bold">→</span>
-                  <span className="text-muted-foreground">
-                    <strong className="text-foreground">Feedback multimodal:</strong> Combinação de feedback visual, sonoro e tátil melhora significativamente a experiência
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-primary font-bold">→</span>
-                  <span className="text-muted-foreground">
-                    <strong className="text-foreground">Personalização:</strong> Permitir ajustes individuais é crucial para atender diferentes necessidades
+                    <strong className="text-foreground">
+                      Diretrizes desejáveis:
+                    </strong>{" "}
+                    Passos curtos e numerados, uma etapa por tela, ícones e
+                    imagens simples, opção de áudio com fala calma
+                    (controlável), notificações suaves, cores não vibrantes,
+                    contrastes consistentes e timers independentes por etapa.
                   </span>
                 </li>
               </ul>

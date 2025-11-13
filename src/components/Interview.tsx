@@ -12,7 +12,7 @@ const Interview = () => {
   ];
 
   const challenges = [
-    "Segurança com objetos cortantes e distrações sonoras no ambiente",
+    "Riscos persistentes: segurança com objetos cortantes e distrações sonoras — devem ser tratados como requisitos não funcionais (alertas, instruções explícitas e controle de áudio).",
   ];
 
   return (
