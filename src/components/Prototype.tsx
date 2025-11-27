@@ -9,90 +9,112 @@ import {
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { ExternalLink } from "lucide-react";
+import prototype1 from "@/assets/prototype/1.jpg";
+import prototype2 from "@/assets/prototype/2.jpg";
+import prototype3 from "@/assets/prototype/3.jpg";
+import prototype4 from "@/assets/prototype/4.jpg";
+import prototype5 from "@/assets/prototype/5.jpg";
+import prototype6 from "@/assets/prototype/6.jpg";
+import prototype7 from "@/assets/prototype/7.jpg";
+import prototype8 from "@/assets/prototype/8.jpg";
+import prototype9 from "@/assets/prototype/9.jpg";
+import prototype10 from "@/assets/prototype/10.jpg";
+import prototype11 from "@/assets/prototype/11.jpg";
+import prototype12 from "@/assets/prototype/12.jpg";
+import prototype13 from "@/assets/prototype/13.jpg";
+import prototype14 from "@/assets/prototype/14.jpg";
+import prototypeSketch1 from "@/assets/prototype/1_sketch.png";
+import prototypeSketch2 from "@/assets/prototype/2_sketch.png";
+import prototypeSketch3 from "@/assets/prototype/3_sketch.png";
+import prototypeSketch4 from "@/assets/prototype/4_sketch.png";
+import prototypeSketch5 from "@/assets/prototype/5_sketch.png";
+import prototypeSketch6 from "@/assets/prototype/6_sketch.png";
+import prototypeSketch7 from "@/assets/prototype/7_sketch.png";
+import prototypeSketch8 from "@/assets/prototype/8_sketch.png";
 
 const mockImages = [
   {
-    url: "./src/assets/prototype/1.jpg",
+    url: prototype1,
     alt: "Tela inicial do aplicativo",
   },
   {
-    url: "./src/assets/prototype/2.jpg",
+    url: prototype2,
     alt: "Login",
   },
   {
-    url: "./src/assets/prototype/3.jpg",
+    url: prototype3,
     alt: "Home",
   },
   {
-    url: "./src/assets/prototype/4.jpg",
+    url: prototype4,
     alt: "Configurações",
   },
   {
-    url: "./src/assets/prototype/5.jpg",
+    url: prototype5,
     alt: "Lista de receitas",
   },
   {
-    url: "./src/assets/prototype/6.jpg",
+    url: prototype6,
     alt: "Pesquisa de receitas",
   },
   {
-    url: "./src/assets/prototype/7.jpg",
+    url: prototype7,
     alt: "Pesquisa por categorias",
   },
   {
-    url: "./src/assets/prototype/8.jpg",
+    url: prototype8,
     alt: "Informações da receita",
   },
   {
-    url: "./src/assets/prototype/9.jpg",
+    url: prototype9,
     alt: "Receita",
   },
   {
-    url: "./src/assets/prototype/10.jpg",
+    url: prototype10,
     alt: "Receita",
   },
   {
-    url: "./src/assets/prototype/11.jpg",
+    url: prototype11,
     alt: "Receita",
   },
   {
-    url: "./src/assets/prototype/12.jpg",
+    url: prototype12,
     alt: "Receita",
   },
   {
-    url: "./src/assets/prototype/13.jpg",
+    url: prototype13,
     alt: "Receita",
   },
   {
-    url: "./src/assets/prototype/14.jpg",
+    url: prototype14,
     alt: "Receita",
   },
 ];
 
 const sketchingImages = [
   {
-    url: "./src/assets/prototype/1_sketch.png",
+    url: prototypeSketch1,
   },
   {
-    url: "./src/assets/prototype/2_sketch.png",
+    url: prototypeSketch2,
   },
   {
-    url: "./src/assets/prototype/3_sketch.png",
+    url: prototypeSketch3,
   },
   {
-    url: "./src/assets/prototype/4_sketch.png",
+    url: prototypeSketch4,
   },
   {
-    url: "./src/assets/prototype/5_sketch.png",
+    url: prototypeSketch5,
   },
   {
-    url: "./src/assets/prototype/6_sketch.png",
+    url: prototypeSketch6,
   },
   {
-    url: "./src/assets/prototype/7_sketch.png",
+    url: prototypeSketch7,
   },
   {
-    url: "./src/assets/prototype/8_sketch.png",
+    url: prototypeSketch8,
   },
 ];
 
