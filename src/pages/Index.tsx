@@ -6,6 +6,7 @@ import NeedsAndDifferentials from "@/components/NeedsAndDifferentials";
 import NextSteps from "@/components/NextSteps";
 import ProjectDescription from "@/components/ProjectDescription";
 import StakeholdersAndUsers from "@/components/StakeholdersAndUsers";
+import Prototype from "@/components/Prototype";
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
       <Interview />
       <CompetitiveAnalysis />
       <NeedsAndDifferentials />
+      <Prototype />
       <NextSteps />
     </div>
   );
