@@ -12,71 +12,87 @@ import { ExternalLink } from "lucide-react";
 
 const mockImages = [
   {
-    url: "./assets/mockups/prototype-1.png",
+    url: "./src/assets/prototype/1.jpg",
     alt: "Tela inicial do aplicativo",
   },
   {
-    url: "./assets/mockups/prototype-2.png",
+    url: "./src/assets/prototype/2.jpg",
+    alt: "Login",
+  },
+  {
+    url: "./src/assets/prototype/3.jpg",
+    alt: "Home",
+  },
+  {
+    url: "./src/assets/prototype/4.jpg",
+    alt: "Configurações",
+  },
+  {
+    url: "./src/assets/prototype/5.jpg",
     alt: "Lista de receitas",
   },
   {
-    url: "./assets/mockups/prototype-3.png",
-    alt: "Detalhe da receita",
+    url: "./src/assets/prototype/6.jpg",
+    alt: "Pesquisa de receitas",
   },
   {
-    url: "./assets/mockups/prototype-4.png",
-    alt: "Timer da receita",
+    url: "./src/assets/prototype/7.jpg",
+    alt: "Pesquisa por categorias",
   },
   {
-    url: "./assets/mockups/prototype-5.png",
-    alt: "Passo a passo",
+    url: "./src/assets/prototype/8.jpg",
+    alt: "Informações da receita",
   },
   {
-    url: "./assets/mockups/prototype-6.png",
-    alt: "Configurações de acessibilidade",
+    url: "./src/assets/prototype/9.jpg",
+    alt: "Receita",
   },
   {
-    url: "./assets/mockups/prototype-7.png",
-    alt: "Categorias de receitas",
+    url: "./src/assets/prototype/10.jpg",
+    alt: "Receita",
   },
   {
-    url: "./assets/mockups/prototype-8.png",
-    alt: "Favoritos",
+    url: "./src/assets/prototype/11.jpg",
+    alt: "Receita",
+  },
+  {
+    url: "./src/assets/prototype/12.jpg",
+    alt: "Receita",
+  },
+  {
+    url: "./src/assets/prototype/13.jpg",
+    alt: "Receita",
+  },
+  {
+    url: "./src/assets/prototype/14.jpg",
+    alt: "Receita",
   },
 ];
 
 const sketchingImages = [
   {
-    url: "./assets/mockups/sketch-1.png",
-    alt: "Sketch inicial - navegação",
+    url: "./src/assets/prototype/1_sketch.png",
   },
   {
-    url: "./assets/mockups/sketch-2.png",
-    alt: "Sketch - fluxo de receitas",
+    url: "./src/assets/prototype/2_sketch.png",
   },
   {
-    url: "./assets/mockups/sketch-3.png",
-    alt: "Sketch - layout timer",
+    url: "./src/assets/prototype/3_sketch.png",
   },
   {
-    url: "./assets/mockups/sketch-4.png",
-    alt: "Sketch - componentes de acessibilidade",
+    url: "./src/assets/prototype/4_sketch.png",
   },
   {
-    url: "./assets/mockups/sketch-5.png",
-    alt: "Sketch - estrutura de informação",
+    url: "./src/assets/prototype/5_sketch.png",
   },
   {
-    url: "./assets/mockups/sketch-6.png",
-    alt: "Sketch - wireframe de categorias",
+    url: "./src/assets/prototype/6_sketch.png",
   },
   {
-    url: "./assets/mockups/sketch-7.png",
-    alt: "Sketch - interações principais",
+    url: "./src/assets/prototype/7_sketch.png",
   },
   {
-    url: "./assets/mockups/sketch-8.png",
-    alt: "Sketch - arquitetura da informação",
+    url: "./src/assets/prototype/8_sketch.png",
   },
 ];
 
@@ -110,11 +126,7 @@ const Prototype = () => {
                   className="relative group aspect-square rounded-lg overflow-hidden border-2 border-border hover:border-primary transition-colors cursor-pointer"
                   onClick={() => setSelectedImage(image.url)}
                 >
-                  <img
-                    src={image.url}
-                    alt={image.alt}
-                    className="w-full h-full object-cover"
-                  />
+                  <img src={image.url} className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors" />
                 </div>
               ))}
@@ -122,7 +134,7 @@ const Prototype = () => {
           </CardContent>
         </Card>
 
-        <Card className="mb-8">
+        <Card className="mb-8 mt-12">
           <CardHeader>
             <CardTitle>Galeria de Telas</CardTitle>
             <CardDescription>Telas do protótipo</CardDescription>
