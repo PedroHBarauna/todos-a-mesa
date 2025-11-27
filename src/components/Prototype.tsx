@@ -12,70 +12,70 @@ import { ExternalLink } from "lucide-react";
 
 const mockImages = [
   {
-    url: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/prototype-1.png",
     alt: "Tela inicial do aplicativo",
   },
   {
-    url: "https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/prototype-2.png",
     alt: "Lista de receitas",
   },
   {
-    url: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/prototype-3.png",
     alt: "Detalhe da receita",
   },
   {
-    url: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/prototype-4.png",
     alt: "Timer da receita",
   },
   {
-    url: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/prototype-5.png",
     alt: "Passo a passo",
   },
   {
-    url: "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/prototype-6.png",
     alt: "Configurações de acessibilidade",
   },
   {
-    url: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/prototype-7.png",
     alt: "Categorias de receitas",
   },
   {
-    url: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/prototype-8.png",
     alt: "Favoritos",
   },
 ];
 
 const sketchingImages = [
   {
-    url: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/sketch-1.png",
     alt: "Sketch inicial - navegação",
   },
   {
-    url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/sketch-2.png",
     alt: "Sketch - fluxo de receitas",
   },
   {
-    url: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/sketch-3.png",
     alt: "Sketch - layout timer",
   },
   {
-    url: "https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/sketch-4.png",
     alt: "Sketch - componentes de acessibilidade",
   },
   {
-    url: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/sketch-5.png",
     alt: "Sketch - estrutura de informação",
   },
   {
-    url: "https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/sketch-6.png",
     alt: "Sketch - wireframe de categorias",
   },
   {
-    url: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/sketch-7.png",
     alt: "Sketch - interações principais",
   },
   {
-    url: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=1200&fit=crop",
+    url: "./assets/mockups/sketch-8.png",
     alt: "Sketch - arquitetura da informação",
   },
 ];
