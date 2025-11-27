@@ -90,6 +90,13 @@ Recomenda-se ampliar a amostra de entrevistas e validar as descobertas com teste
 
 ---
 
+## 📱 Protótipo de Baixa fidelidade
+
+[▶️ Protótipo desenvolvido no Balsamiq](https://balsamiq.cloud/syk0q7b/p68942z/r3E68)
+
+---
+
+
 ## 🚀 Equipe
 
 - Giovanna Souza  
@@ -100,6 +107,6 @@ Recomenda-se ampliar a amostra de entrevistas e validar as descobertas com teste
 
 ---
 
-📦 **Repositório desenvolvido para disciplina de Projeto de Interface (P1)** – ICT UNIFESP  
+📦 **Repositório desenvolvido para disciplina de Interação Humano Computador(P1 - User Research/P2 - Low Fidelity Prototype)** – ICT UNIFESP
 🧭 Orientação: Tiago Silva da Silva
 📅 Ano: 2025
