@@ -96,6 +96,14 @@ Recomenda-se ampliar a amostra de entrevistas e validar as descobertas com teste
 
 ---
 
+---
+
+## 📱 Protótipo de Alta fidelidade
+
+[▶️ Protótipo desenvolvido no Figma](https://www.figma.com/proto/l2FejsGf3hE0xtNLhyHten/Todos-%C3%A0-Mesa?node-id=0-1&t=oC3brD1AgqNMVR2Z-1)
+
+---
+
 
 ## 🚀 Equipe
 
@@ -107,6 +115,6 @@ Recomenda-se ampliar a amostra de entrevistas e validar as descobertas com teste
 
 ---
 
-📦 **Repositório desenvolvido para disciplina de Interação Humano Computador(P1 - User Research/P2 - Low Fidelity Prototype)** – ICT UNIFESP
+📦 **Repositório desenvolvido para disciplina de Interação Humano Computador(P1 - User Research/P2 - Low Fidelity Prototype/P3 - High Fidelity Prototype)** – ICT UNIFESP
 🧭 Orientação: Tiago Silva da Silva
 📅 Ano: 2025
