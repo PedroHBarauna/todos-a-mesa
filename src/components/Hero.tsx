@@ -76,7 +76,21 @@ const Hero = () => {
                 }
               }}
             >
-              Ver Protótipo
+              Ver Protótipo Baixa Fidelidade
+            </Button>
+
+            <Button
+              size="lg"
+              variant="outline"
+              className="text-lg px-8 py-6 border-2 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/30 shadow-lg"
+              onClick={() => {
+                const el = document.getElementById("high-fidelity");
+                if (el) {
+                  el.scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+              }}
+            >
+              Ver Protótipo Alta Fidelidade
             </Button>
           </div>
         </div>
